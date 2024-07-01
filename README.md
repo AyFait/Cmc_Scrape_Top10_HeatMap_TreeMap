@@ -12,7 +12,7 @@ I assume you know how to install and setup webdriver, either firefox or chrome. 
 # Requirements:
 webdriver selenium numpy pandas time datetime squarify plotly
 
-Didin't really encounter any issues while trying to plot, I only just realized that what I was trying to do is call a TREEMAP not HEATMAP really lol 😉
+Didn't really encounter any issues while trying to plot, I only just realized that what I was trying to do is call a TREEMAP not HEATMAP really lol 😉
 
 For the best view I'd suggest the Jupyter Notebook version
 
