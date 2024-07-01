@@ -1,0 +1,8 @@
+selenium 
+numpy 
+pandas
+time
+datetime
+plotly
+squarify
+matplotlib
