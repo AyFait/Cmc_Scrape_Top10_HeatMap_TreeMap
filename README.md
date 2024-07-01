@@ -21,5 +21,4 @@ For the best view I'd suggest the Jupyter Notebook version
 
 > The Dynamic TreeMap
 ![CmcTrymap Dy Jup](https://github.com/AyFait/Cmc_Scrape_Top10_HeatMap_TreeMap/assets/50885913/bcbdeac0-d2f9-430b-8486-b35e9721c433)
-
 ![CMC TM dy vs](https://github.com/AyFait/Cmc_Scrape_Top10_HeatMap_TreeMap/assets/50885913/e7f0be39-8883-45cd-b4a6-8b98b8f1c415)
