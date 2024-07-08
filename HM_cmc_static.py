@@ -47,7 +47,7 @@ first10 = np.array(merged[:10])#only need the first 10
 '''print(first10)'''
 
 #passing to nympy Dataframe to get tabular form
-df = pd.DataFrame(first10, columns=['CmcRank', 'Name', 'Symbol', 'Price', '24h%', 'Vol(24h)'])
+df = pd.DataFrame(first10, columns=['CmcRank', 'Name', 'Symbol', 'Price', '24h%', 'Vol(24h)']) #can add  index=[range(11)] to modify the row numbering
 #Initially getting errors of ValueError: 5 columns passed, passed data had 125 columns
 #so needed to break the  cols down into 5
 print(df)
