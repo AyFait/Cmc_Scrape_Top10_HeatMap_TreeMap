@@ -48,7 +48,7 @@ def fetch_and_plot():
     '''print(first10)'''
 
     #passing to nympy Dataframe to get tabular form
-    df = pd.DataFrame(first10, columns=['CmcRank', 'Name', 'Symbol', 'Price', '24h%', 'Vol(24h)'])
+    df = pd.DataFrame(first10,  index=[np.arange(1, 11)], columns=['CmcRank', 'Name', 'Symbol', 'Price', '24h%', 'Vol(24h)']) #use index_col=0 to remove default pd index(numbering)
     #Initially getting errors of ValueError: 5 columns passed, passed data had 125 columns
     #so needed to break the  cols down into 5
     print(df)
